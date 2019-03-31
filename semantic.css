@@ -32363,13 +32363,13 @@ Floated Menu / Item
 
  /* Table Striping */
  .ui.striped.table > tr:nth-child(2n),
- .ui.striped.table tbody tr:nth-child(2n) {
+ .ui.striped.table > tbody > tr:nth-child(2n) {
    background-color: rgba(0, 0, 50, 0.02);
  }
 
  /* Stripes */
  .ui.inverted.striped.table > tr:nth-child(2n),
- .ui.inverted.striped.table tbody tr:nth-child(2n) {
+ .ui.inverted.striped.table > tbody > tr:nth-child(2n) {
    background-color: rgba(255, 255, 255, 0.05);
  }
 
