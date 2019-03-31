@@ -59,7 +59,7 @@
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.ui.table > thead > th {
+.ui.table > thead > tr > th {
   cursor: auto;
   background: #F9FAFB;
   text-align: inherit;
@@ -90,7 +90,7 @@
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.ui.table > tfoot > th {
+.ui.table > tfoot > tr > th {
   cursor: auto;
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #F9FAFB;
@@ -202,17 +202,16 @@
             box-shadow: none !important;
   }
   .ui.table:not(.unstackable) > tr > th:first-child,
-  .ui.table:not(.unstackable) > thead > th:first-child,
-  .ui.table:not(.unstackable) > tbody > th:first-child,
-  .ui.table:not(.unstackable) > tfoot > th:first-child,
-  .ui.table:not(.unstackable) > td:first-child,
+  .ui.table:not(.unstackable) > thead > tr > th:first-child,
+  .ui.table:not(.unstackable) > tbody > tr > th:first-child,
+  .ui.table:not(.unstackable) > tfoot > tr > th:first-child,
   .ui.table:not(.unstackable) > tr > td:first-child,
   .ui.table:not(.unstackable) > tbody > tr > td:first-child {
     font-weight: bold;
   }
   
 /* Definition Table */
-  .ui.definition.table:not(.unstackable) > thead > th:first-child {
+  .ui.definition.table:not(.unstackable) > thead > tr > th:first-child {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
